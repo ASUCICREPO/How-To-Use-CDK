@@ -15,14 +15,15 @@ Configure your AWS credentials:
 2. Create a virtual environment and install the required dependencies:
 
    `python3 -m venv myLib`
+   
    `pip3 install -r requirements.txt`
-3. Navigate to the `aws-cdk-demo` directory:
+4. Navigate to the `aws-cdk-demo` directory:
 
    `cd aws-cdk-demo`
-4. Initialize the AWS CDK project:
+5. Initialize the AWS CDK project:
 
    `cdk init app --language python`
-5. To deploy the AWS CDK stack:
+6. To deploy the AWS CDK stack:
 
    `cdk synth`
 
