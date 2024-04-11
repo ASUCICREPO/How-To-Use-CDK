@@ -10,7 +10,7 @@ class AwsCdkDemoStack(TerraformStack):
 
         # Configure the AWS provider
         AwsProvider(self, "aws",
-                    region=os.getenv('CDK_DEFAULT_REGION', 'us-west-2'))
+                    region=os.getenv('CDK_DEFAULT_REGION', 'us-east-2'))
 
         # Create an SQS queue
         queue = SqsQueue(self, "AwsCdkDemoQueue",
